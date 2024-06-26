@@ -7,7 +7,7 @@ import { MapRef, Marker, Map } from "react-map-gl";
 import Pin from "./components/Pin";
 
 import "mapbox-gl/dist/mapbox-gl.css";
-import { Waypoint } from "./api/chat/route";
+import { Waypoint } from "./utils/types";
 
 const initialViewState = {
   longitude: 5.249209225090425,
